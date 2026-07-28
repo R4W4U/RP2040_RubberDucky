@@ -1,0 +1,3 @@
+DELAY 1000
+STRING Hello from Ducky
+ENTER
