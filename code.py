@@ -38,3 +38,5 @@ while True:
         keyboard.press(Keycode.F10)
         keyboard.release_all()
         break
+
+time.sleep(1000000)
