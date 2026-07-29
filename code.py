@@ -18,7 +18,16 @@ duck = adafruit_ducky.Ducky(
 
 time.sleep(1)
 
+i = 0
+while i < 40:
+    keyboard.press(Keycode.F1)
+    keyboard.release_all()
+    time.delay(300)
+    i += 1
+
 while True:
+    keyboard.press(Keycode.ENTER)
+    keyboard.release_all()
     result = duck.loop()
     if result is False:
         keyboard.press(Keycode.KEYPAD_PLUS)
