@@ -19,7 +19,9 @@ Download and copy the CircuitPython UF2 file for the Raspberry Pi Pico to the de
 
 > **Note:** The CircuitPython version used for this project is also included in the repository.
 
-After CircuitPython has been installed, copy the contents of the ./code/ directory onto the RP2040 Rubber Ducky.
+After CircuitPython has been installed, copy everything except the .uf2 files onto the RP2040 Rubber Ducky.
+
+> **Note:** You may need to use the terminal when using linux.
 
 ### Run the Sample Payload
 
