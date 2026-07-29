@@ -26,9 +26,9 @@ After CircuitPython has been installed, copy everything except the .uf2 files on
 ### Run the Sample Payload
 
 To test the device:
+1. Plug in the USB with a texteditor open and selected. Wait for the Programm to run through one time, then you can upload your code. This works even if storage mode is not working.
+2. Copy `payload.txt` to the root directory of the RP2040.
+3. When saving the payload.txt file the USB will automaticly start the new programm so go back to the texteditor or pull out the USB.
 
-1. Copy `sample/payloads/rickroll_macos.txt` to the root directory of the RP2040.
-2. Rename the file to:
+> **Note:** payload.txt contains the BIOS setup for lenovo thinclients.
 
-```text
-payload.txt
