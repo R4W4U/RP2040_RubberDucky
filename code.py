@@ -19,7 +19,7 @@ duck = adafruit_ducky.Ducky(
 time.sleep(1)
 
 i = 0
-while i < 40:
+while i < 60:
     keyboard.press(Keycode.F1)
     keyboard.release_all()
     time.sleep(0.5)
